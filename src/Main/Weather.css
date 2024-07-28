@@ -7,7 +7,7 @@
 .real-app{
     width: 414px;
     height: 100%;
-    background-color: #47BFDF;
+    background-color: #4A91FF;
     padding: 52px 30px;
 }
 
@@ -51,7 +51,7 @@
 .fetchWeather-button{
     width: 220px;
     display: block;
-    margin: 78px auto;
+    margin: 50px auto 0 auto;
     height: 64px;
     background-color: #fff;
     color: #444E72;
@@ -68,24 +68,22 @@
 .weather-Details-Box{
     display: flex;
     justify-content: center;
-    padding: 28px 40px;
+    padding: 18px 40px;
 }
 
 .hum-and-wind-box1{
     display: flex;
     color: #fff;
     width: 199px;
-    margin-top: 40px;
+    margin-top: 22px;
 }
 
 .box1{
-    width: 50%;
+    width: 100%;
     display: flex;
     align-items: center;
 }
 
-.box2{
-    width: 50%;
-    align-items: center;
-    display: flex;
+.box1 p{
+    white-space: nowrap; /* Ensure the text doesn't wrap */
 }
