@@ -49,7 +49,7 @@ const Weather = () => {
 
           <div className='weather-Details-Box'>
             {error ? (
-              <p style={{ fontSize: '18px', fontWeight: '600', color: '#fff', display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center', backgroundColor: 'rgba(0,0,0,0.5)', padding: '10px', borderRadius: '5px' }}>{error}</p>
+              <p style={{ fontSize: '18px', fontWeight: '600', color: '#fff', display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center', padding: '10px', borderRadius: '5px' }}>{error}</p>
             ) : weatherData ? (
               <div className='Details-box-inner'>
                 <p style={{ fontSize: '18px', color: '#fff', textAlign: 'center' }}>Today, {getCurrentDate()}</p>
