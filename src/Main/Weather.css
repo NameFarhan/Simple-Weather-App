@@ -1,0 +1,65 @@
+
+
+.Wrapper{
+    display: flex;
+    justify-content: center;
+}
+.real-app{
+    width: 414px;
+    height: 100%;
+    background-color: #47BFDF;
+    padding: 52px 30px;
+}
+
+
+.input-field-and-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input-field-and-icon input {
+    width: 220px;
+    height: 64px;
+    background-color: #fff;
+    color: #444E72;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding-left: 27px;
+    padding-right: 27px;
+    box-shadow: 0px 0px 20.5px .1px #514b4b;
+
+}
+
+.input-field-and-icon img{
+    height: 40px;
+    box-shadow: 0px 0px 20.5px 0px #514b4b;
+
+}
+
+.weather-Details-Box{
+    margin-top: 78px;
+    width: 353px;
+    background-color: #ffffff41;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20.5px 0px #514b4b;
+    height: 335px;
+}
+
+.fetchWeather{
+    width: 220px;
+    display: flex;
+    margin: 78px auto;
+    height: 64px;
+    background-color: #fff;
+    color: #444E72;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding-left: 27px;
+    padding-right: 27px;
+    box-shadow: 0px 0px 20.5px 0px #514b4b;
+}
